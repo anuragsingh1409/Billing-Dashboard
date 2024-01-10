@@ -1,0 +1,66 @@
+.wholeVoice{
+    background:rgb(238,255,255) ;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.leftMenu{
+    border: 1px solid black;
+    background:  #1e2640;
+    height: 100vh;
+    text-align: center;
+
+}
+.middleContent{
+    border: 1px solid black;
+   
+    height: 100vh;
+    padding-left: 20px;
+    /* text-align: center; */
+
+}
+.BrandingTxt{
+    color: #1A254F;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+}
+.upperBar{
+    background: #fff;
+}
+/* .imgclass{
+
+} */
+.contentBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5%;
+
+}
+.voiceBox{
+    background: #C8D6FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px ;
+    width: 70vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 5%;
+}
+.leftNavigation{
+    margin-top: 20%;
+}
+.voiceAnalysis, .ChatSupport, .Tourism, .IVRS{
+    font-size: 1.1rem;
+    color: #fff;
+    text-align: left;
+    
+    
+}
+.voiceAnalysis:hover, .ChatSupport:hover, .Tourism:hover, .IVRS:hover{
+background: #C8D6FB; 
+color: black;
+}

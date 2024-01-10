@@ -1,0 +1,58 @@
+.wholeLanding{
+ 
+  height: 100vh;
+  width: 100vw;
+  background:linear-gradient(180deg, #1A254F 0%, #53688B 100%);
+   overflow-x: hidden;
+}
+
+.Branding{
+   color: #FFF;
+font-family: Noto Sans;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: relative;
+left: 50px;
+padding: 2%;
+}
+.middleContainer{
+   padding-top: 8%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.middleTxt{
+   color: #FFF;
+
+text-align: center;
+font-family: Red Hat Display;
+font-size: 3.2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal
+}
+.btnKnowMore{
+background: #42A19B;
+width: 150px;
+height: 50px;
+flex-shrink: 0;
+color: #fff;
+padding: 5px;
+font-size: 1.3rem;
+text-align: center;
+
+margin-top: 20%;
+}
+.btnGuest{
+width: 150px;
+height: 50px;
+flex-shrink: 0;
+border: 1px solid #42A19B ;
+color: #42A19B;
+text-align: center;
+font-size: 1.3rem;
+
+margin-top: 20%;
+}
